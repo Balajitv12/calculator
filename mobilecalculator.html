@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>calculator for mobile</title>
+    <link rel="website icon" href="images/Calculator_512.webp">
+    <link rel="stylesheet" href="style sheet/calculator.css">
+    <script src="javascript/calculator.js"></script>
+  </head>
+  <body style="background-color: black;">
+    <div>
+      <div class="div1">
+        <p class="p1" id="showingtext">0</p>
+        <p class="p2" id="result">0</p>
+      </div>
+      <div class="div2">
+        <p>
+          <button onclick="
+            alldelete();
+            ">AC</button>
+          <button onclick="
+           cal('%');
+          ">%</button>
+          <button onclick="
+           delete1();
+          ">&#9249;</button>
+          <button onclick="
+            cal('/');
+          ">&#247;</button>
+        </p>
+        <p>
+          <button onclick="
+             cal(7);
+            ">7</button>
+          <button onclick="
+            cal(8);
+          ">8</button>
+          <button onclick="
+            cal(9);
+          ">9</button>
+          <button onclick="
+           cal('*');
+          ">&times</button>
+        </p>
+        <p>
+          <button onclick="
+             cal(4);
+            ">4</button>
+          <button onclick="
+           cal(5);
+          ">5</button>
+          <button onclick="
+           cal(6);
+          ">6</button>
+          <button onclick="
+           cal('-');
+          ">-</button>
+        </p>
+        <p>
+          <button onclick="
+             cal(1);
+            ">1</button>
+          <button onclick="
+           cal(2);
+          ">2</button>
+          <button onclick="
+           cal(3);
+          ">3</button>
+          <button onclick="
+           cal('+');
+          ">+</button>
+        </p>
+        <p>
+          <button onclick="
+             cal('00');
+            ">00</button>
+          <button onclick="
+           cal(0);
+          ">0</button>
+          <button onclick="
+           cal('.');
+          ">.</button>
+          <button class="equal_button" onclick="
+           equal();
+          ">=</button>
+        </p>
+      </div>
+  </div>
+  </body> 
+</html>

@@ -1,0 +1,44 @@
+
+body{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+button{
+  height: 190px;
+  width: 190px;
+  border-radius: 180px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(66, 65, 65);
+  font-size: 60px;
+  border-style: solid;
+  margin-right: 18px;
+  margin-left: 18px;
+  margin-bottom: 25px;
+  border: none;
+}
+.equal_button{
+  background-color: orange;
+}
+.div1{
+  height: 550px;
+  width: 100%;
+  
+}
+.div2{
+  height: 50%;
+  width: 100%;
+}
+p{
+  color: white;
+  text-align: end;
+  margin-right: 20px;
+}
+.p1{
+  text-align: end;
+  font-size: 100px;
+}
+.p2{
+  text-align: end;
+  font-size: 100px;
+}
